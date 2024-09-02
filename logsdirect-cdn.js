@@ -2,8 +2,8 @@
     'use strict';
 
     // Replace this with your actual API endpoint
-    const API_ENDPOINT = 'https://logs-direct.vercel.app/api/send-slack';
-  
+    const API_ENDPOINT = 'http://localhost:5173/api/send-slack';
+
     function LogsDirect() {
       this.sendSlackMessage = function(channel, message) {
         return new Promise((resolve, reject) => {
